@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<title> Conversor de Moedas </title>
+	<meta charset="utf-8">
+	<script src="bin2dec.js"></script>
+	<link href="bin2dec.css" rel="stylesheet">
+</head>
+<body>
+	<div class="form-wrapper">
+		<form>
+			<legend>Converte Binário Para Decimal</legend>
+			<label for="binario">Infome o número em binário:</label>
+			<input type="number" name="bin" id="bin" maxlength="8" placeholder="Infome em binario com até 8 bits"><br><br>
+			<button id="botaoConverter" onclick="converterBinToDec()">Converter</button>
+		</form>
+	</div>
+	<div class="form-resposta">
+		<input type="number" class="input-class" id="convertido" name="convertido" placeholder="Valor em decimal">
+	</div>
+</body>
+</html>
